@@ -1,0 +1,17 @@
+Deep Learning Exercise
+
+We wish to detect various modes of speech. As a test exercise we pose the challenge of classifying utterances of fixed length into the three categories: Speech, Singing and Rap. 
+
+An audio corpus is provided. Each mode is separated by the corresponding folder which in turn is separated into sub-folders by speaker. There are 480 utterances for each category, they are 3 seconds long. They are sampled at 16 kHz.
+
+You may use the model/architecture of your choice and any kind of feature extraction/preprocessing as you see fit.
+
+Report the accuracy of the model on a balanced testset, containing ~10% of the dataset.
+
+You may use your deep learning framework of choice.
+
+Hint: This github repo could be useful
+https://github.com/jameslyons/python_speech_features
+
+Follow-up Question: Let’s now assume that we wish to detect the speech mode in a continuous manner, i.e. detecting the mode at each time frame. At inference time, the test utterance can be of any length and the speaker could switch between modes at any time, for instance switching between singing and rap. Please draft a possible approach using the same database for training.
+Note: The follow-up question does not require implementation. It will be discussed during the interview.
