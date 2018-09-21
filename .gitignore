@@ -115,3 +115,5 @@ dmypy.json
 /data
 *.h5
 *.npy
+/spectrograms
+*.png
